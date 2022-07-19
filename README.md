@@ -8,7 +8,7 @@ In this challenge, you are asked to return a collection of both numbers and lett
 ## HINTS
 ## Hint 1
 Are you using the `match()` method?  If so, then are you calling the method from the appropriate variable? i.e.
-```
+```js
 let input_string = "The string you are testing on";
 let yourRegExp = /[h-s]/;
 let correct_result = input_string.match(yourRegExp);    // passes - returns characters H to S
@@ -17,7 +17,7 @@ let incorrect_reslt = yourRegExp.match(input_string);   // fails - .match() is n
 ```
 ## Hint 2
 Did you remember to enable the regexp flags such as `i` for ignoring case and `g` for retrieving multiple values?  If so, then are you including both the character case match for numbers AND letters?
-```
+```js
 let regexp = /[a-z1-100]/gi;
 // above code returns all characters from A to Z, along with all numbers from 1 to 100
 // this includes the letter A and Z and the numbers 1 and 100 

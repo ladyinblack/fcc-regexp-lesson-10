@@ -2,6 +2,8 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-powjnx)
 
+### [Match Numbers and Letters of the Alphabet](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/regular-expressions/match-numbers-and-letters-of-the-alphabet)
+
 ## PROBLEM EXPLANATION
 In this challenge, you are asked to return a collection of both numbers and letters extracted from a string.  Our goal is to create a single regexp that captures the range of letters between `h` and `s`, and the numbers from `2` to `6`.
 
